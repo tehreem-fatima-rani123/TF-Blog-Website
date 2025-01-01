@@ -32,7 +32,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className=" sm:h-18 bg-[#3d7194] items-center lg:pt-1.5 fixed top-0 left-0 w-full z-10  text-white lg:h-20 bod-font shadow-lg">
+    <header className=" sm:h-9 bg-[#3d7194] items-center lg:pt-1.5 fixed top-0 left-0 w-full z-10  text-white lg:h-20 bod-font shadow-lg">
       <div className="container mx-auto flex  flex-wrap p-2 flex-col md:flex-row items-center ">
         <div className="flex-1 sm:text-black md:text-white lg:text-white">
           <span>{currentDateTime}</span>
