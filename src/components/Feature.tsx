@@ -2,7 +2,7 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <div className="mt-32  bg-[#5B99C2]">
+    <div className="mt-36  bg-[#5B99C2]">
       <section className="py-8 bg-neutral-50 mb-24 md:mb-40">
         <h2 className=" text-center text-3xl font-bold md:text-5xl lg:text-left animate-fade-in-up transition-all duration-500 ease-in-out transform hover:translate-y-[-5px] hover:text-gray-400 text-[#2a495c] mb-5">
           Building the Future with Code: Tehreem Fatima’s Blog on Programming
