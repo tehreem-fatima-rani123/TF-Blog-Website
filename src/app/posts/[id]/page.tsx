@@ -81,11 +81,16 @@ export default function Post({ params }: { params: { id: string } }) {
 
   const renderParagraphs = (description: string) => {
     return description.split("\n").map((para, index) => (
-      <p key={index} className="mt-4 text-justify">
+      <p
+        key={index}
+        className="mt-4 text-justify text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl leading-relaxed sm:leading-normal md:leading-loose"
+      >
         {para.trim()}
       </p>
     ));
   };
+  
+  
   return (
     <div className="max-w-3xl mx-auto p-5 mt-40 ">
       <h1 className="md:text-4xl text-3xl font-bold text-center text-[#274f69]">
